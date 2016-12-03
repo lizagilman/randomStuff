@@ -39,6 +39,10 @@ public class Sportsman extends Person{
         System.out.println(String.format("Hi! I'm a Sportsman, my name is %s.", name));
     }
 
+    public void tellSportsProfession(){
+        ;
+    }
+
     public void doActivity(String activity) throws CannotCodeException{
         if(activity.equals("code")){
             throw new CannotCodeException("Sportsman");

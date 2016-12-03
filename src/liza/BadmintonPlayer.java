@@ -14,6 +14,10 @@ public class BadmintonPlayer extends Sportsman implements IAthlete{
         System.out.println(String.format("Name: %s, ID: %d, Sponsor: %s, World Ranking: %d, Racket: %s", name, id, sponsor, worldRanking, racketModel));
     }
 
+    public void tellSportsProfession(){
+        System.out.println("I'm a badminton player!");
+    }
+
     public void practiceSkills(){
         System.out.println(name+" practicing badminton skills.");
     }

@@ -14,19 +14,22 @@ public class MyMain {
         BasketballPlayer lebron = new BasketballPlayer("Lebron", "Nike", 1, "kklivlend");
 
 
-        Sportsman[] arr = new Sportsman[2];
-        arr[0] = jan;
-        arr[1] = lebron;
-
-        List arrL = new ArrayList();
+        List<Sportsman> arrL = new ArrayList<>();
         arrL.add(jan);
         arrL.add(lebron);
 
 
         for(int i=0;i<2;i++){
-//            arrL.get(i).comp
-//            arrL.get(i).sayHi();
+            (arrL.get(i)).jump();
         }
+
+//        List<String> myl = new ArrayList<>();
+//        myl.add("a");
+//        myl.add("b");
+//        myl.add("c");
+//        myl.add("d");
+//        Demos demo = new Demos();
+//        demo.reverseList(myl);
 
 //        try {
 //            jan.doActivity("watch tv");

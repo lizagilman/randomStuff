@@ -8,6 +8,10 @@ public class BasketballPlayer extends Sportsman implements IAthlete{
         team = bpTeam;
     }
 
+    public void tellSportsProfession(){
+        System.out.println("I'm a basketball player!");
+    }
+
     public void practiceSkills(){
         System.out.println(name+" practicing basketball skills.");
     }

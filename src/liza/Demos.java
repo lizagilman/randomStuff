@@ -1,7 +1,7 @@
 package liza;
 
 
-import java.util.Stack;
+import java.util.*;
 
 public class Demos {
     public void fib(int n){
@@ -100,6 +100,22 @@ public class Demos {
                 System.out.print(matrix[i][j]+" , ");
             }
             System.out.print("\n");
+        }
+    }
+
+    void reverseList(List<String> list){
+        System.out.println("original list: ");
+        for (String i: list) {
+            System.out.println(String.format("%s ", i));
+        }
+        ListIterator<String> iter = list.listIterator(list.size());
+        List<String> reversedList = new ArrayList<>();
+        while(iter.hasPrevious()){
+            reversedList.add(iter.previous());
+        }
+        System.out.println("reversed list: ");
+        for (String i: reversedList) {
+            System.out.println(String.format("%s ", i));
         }
     }
 }
