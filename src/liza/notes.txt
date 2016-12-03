@@ -1,0 +1,14 @@
+SOLID
+
+1. Single Responsibility -
+shop example
+separate behaviors, implement only needed methods in each
+
+2. Open / Closed -
+price calculation rule
+strategy pattern
+
+3. Lisskov Law
+is-substitute-of relation (instead of is-a relation)
+
+4. avoid fat interfaces

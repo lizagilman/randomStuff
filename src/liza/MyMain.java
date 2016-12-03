@@ -48,7 +48,5 @@ public class MyMain {
 //        myvec.add(liza);
 //        myvec.add(jan);
 
-
-
     }
 }
