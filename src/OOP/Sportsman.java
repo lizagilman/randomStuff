@@ -1,4 +1,4 @@
-package liza;
+package OOP;
 
 public class Sportsman extends Person{
     protected String sponsor;

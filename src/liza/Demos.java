@@ -85,7 +85,7 @@ public class Demos {
     }
 
     void LinkedListCircle(){
-
+        // flag on new list (if cant modify original list) or better(?) 2 pointers - slow pointer (next) and fast pointer (next next)
     }
 
     public void matrix(int n){

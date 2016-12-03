@@ -1,4 +1,4 @@
-package liza;
+package OOP;
 
 public interface IAthlete {
     void practiceSkills();

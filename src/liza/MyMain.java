@@ -1,6 +1,10 @@
 package liza;
 
 
+import OOP.BadmintonPlayer;
+import OOP.BasketballPlayer;
+import OOP.Sportsman;
+
 import java.util.*;
 
 public class MyMain {

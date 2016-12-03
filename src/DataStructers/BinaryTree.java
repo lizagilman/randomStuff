@@ -1,4 +1,4 @@
-package liza;
+package DataStructers;
 
 public class BinaryTree {
 

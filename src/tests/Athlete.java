@@ -1,7 +1,9 @@
-package liza;
+package tests;
 
 
-public class Athlete extends Person{
+import tests.*;
+
+public class Athlete extends tests.Person {
     private int worldRanking;
 
     Athlete(String name, int aWorldRanking){

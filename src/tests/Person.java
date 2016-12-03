@@ -1,4 +1,4 @@
-package liza;
+package tests;
 
 
 public class Person {

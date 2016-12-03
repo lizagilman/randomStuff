@@ -1,9 +1,9 @@
-package liza;
+package OOP;
 
 public class BasketballPlayer extends Sportsman implements IAthlete{
     private String team;
 
-    BasketballPlayer(String bpName, String bpSponsor, int bpWorldRanking, String bpTeam){
+    public BasketballPlayer(String bpName, String bpSponsor, int bpWorldRanking, String bpTeam){
         super(bpName, bpSponsor, bpWorldRanking);
         team = bpTeam;
     }

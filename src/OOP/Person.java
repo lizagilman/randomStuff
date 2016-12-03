@@ -1,4 +1,4 @@
-package liza;
+package OOP;
 
 
 abstract public class Person {
