@@ -1,9 +1,11 @@
 package liza;
 
 
+
 import java.util.*;
 
 public class Demos {
+
     public void fib(int n){
         int a = 1;
         int b = 1;
@@ -123,4 +125,8 @@ public class Demos {
             System.out.println(String.format("%s ", i));
         }
     }
+
+
+    public enum colors {RED, BLUE};
+
 }
