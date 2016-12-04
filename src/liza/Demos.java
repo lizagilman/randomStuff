@@ -88,6 +88,11 @@ public class Demos {
         // flag on new list (if cant modify original list) or better(?) 2 pointers - slow pointer (next) and fast pointer (next next)
     }
 
+    void stackFindMaxO1(){
+        // create two stacks, one for the actual vales and one that saves the data
+        // when pushing values, check if new value is smaller then min in other stack
+    }
+
     public void matrix(int n){
         double[][] matrix = new double[n][n];
         for(int i=0;i<n;i++){
